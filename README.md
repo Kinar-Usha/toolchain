@@ -2,9 +2,9 @@
 32 bit ELF build toolchain
 
 
-sudo ap-get update
-sudo apt install build-essential nasm mtools qemu-system-x86
-git clone "	"
+ sudo ap-get update
+ sudo apt install build-essential nasm mtools qemu-system-x86
+ git clone "	"
 make -j
 
 if you get this error =
