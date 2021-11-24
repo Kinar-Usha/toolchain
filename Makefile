@@ -58,7 +58,7 @@ gcc: $(BUILD_DIR) $(LIB_DIR) $(BUILD_DIR)/gcc-$(GCC_VERSION).tar.gz
 	cd $(GCC_BUILD_DIR)/obj\
             && ../configure --target=i686-elf --prefix=$(GCC_BUILD_DIR)/obj $(GCC_CFG_ARGS)\
             && make -j 2 tooldir=$(GCC_BUILD_DIR)/obj all-gcc\
-            && make -j 2 tooldir=$(GCC_BUILD_DIR)/obj install-gcc\     //-j option depends on the number of cores , how many instructions to run at a time 
+            && make -j 2 tooldir=$(GCC_BUILD_DIR)/obj install-gcc\     
 
 	-mv $(GCC_BUILD_DIR)/obj/bin/* $(BIN_DIR)
 	-mv $(GCC_BUILD_DIR)/obj/lib/* $(LIB_DIR)
