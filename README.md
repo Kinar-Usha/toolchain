@@ -21,5 +21,6 @@ make sure that you have installed both the libraries and the header
 files. They may be located in separate packages.
 
 
-solution cd ~/.local/bin/i686....(whatever verision)/build/gcc.....(whatever version)
-./contrib/download_prerequisites]
+solution 
+1.cd ~/.local/bin/i686....(whatever verision)/build/gcc.....(whatever version)
+2. ./contrib/download_prerequisites]
