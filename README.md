@@ -7,6 +7,8 @@
 3. git clone "	".
 4. make -j.
 (edit the makefile to use more cores)
+
+## ERROR handling
 if you get this error =
 configure: error: Building GCC requires GMP 4.2+, MPFR 2.4.0+ and MPC 0.8.0+.
 Try the --with-gmp, --with-mpfr and/or --with-mpc options to specify
