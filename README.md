@@ -2,10 +2,10 @@
 32 bit ELF build toolchain
 
 
- sudo ap-get update
- sudo apt install build-essential nasm mtools qemu-system-x86
- git clone "	"
-make -j
+ sudo ap-get update.
+ sudo apt install build-essential nasm mtools qemu-system-x86.
+ git clone "	".
+make -j.
 
 if you get this error =
 configure: error: Building GCC requires GMP 4.2+, MPFR 2.4.0+ and MPC 0.8.0+.
