@@ -2,4 +2,4 @@
 32 bit ELF build toolchain
 
 
-run make
+run make -j
