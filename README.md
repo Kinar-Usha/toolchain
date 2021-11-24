@@ -22,5 +22,5 @@ files. They may be located in separate packages.
 
 
 solution 
-1.cd ~/.local/bin/i686....(whatever verision)/build/gcc.....(whatever version)
+1. cd ~/.local/bin/i686....(whatever verision)/build/gcc.....(whatever version)
 2. ./contrib/download_prerequisites]
