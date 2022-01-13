@@ -2,10 +2,11 @@
 32 bit ELF build toolchain
 
 
-1. sudo ap-get update.
-2. sudo apt install build-essential nasm mtools qemu-system-x86.
+1. sudo apt update && sudo apt upgrade.
+2. sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo \
+                   nasm qemu-system-x86
 3. git clone "	".
-4. make -j.
+4. make.
 (edit the makefile to use more cores)
 
 ## ERROR handling
