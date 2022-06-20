@@ -7,7 +7,6 @@
 3. `sudo apt install nasm qemu-system-x86`
 4. `git clone https://github.com/Kinar-Usha/toolchain.git`
 5. `make`
-(edit the makefile to use more cores)
 
 ## ERROR handling
 if you get this error ->
