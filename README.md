@@ -6,7 +6,8 @@
 2. `sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo`
 3. `sudo apt install nasm qemu-system-x86`
 4. `git clone https://github.com/Kinar-Usha/toolchain.git`
-5. `make` the compilations should take about 20 minutes.
+5. `cd toolchain`
+6. `make` the compilations should take about 20 minutes.
 
 ## ERROR handling
 if you get this error ->
