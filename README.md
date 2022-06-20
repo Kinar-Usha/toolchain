@@ -2,11 +2,11 @@
 32 bit ELF build toolchain
 
 
-1. sudo apt update && sudo apt upgrade.
-2. sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo \
-                   nasm qemu-system-x86
-3. git clone "https://github.com/Kinar-Usha/toolchain".
-4. make.
+1. `sudo apt update`
+2. `sudo apt install build-essential bison flex libgmp3-dev libmpc-dev libmpfr-dev texinfo`
+3. `sudo apt install nasm qemu-system-x86`
+4. `git clone https://github.com/Kinar-Usha/toolchain.git`
+5. `make`
 (edit the makefile to use more cores)
 
 ## ERROR handling
