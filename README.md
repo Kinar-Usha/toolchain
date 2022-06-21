@@ -23,5 +23,5 @@ files. They may be located in separate packages.`
 
 
 solution 
-1. `cd ~/toolchain/toolchain/gcc-11.2.0/contrib`
-2.  `./download_prerequisites`
+1. `cd ~/toolchain/toolchain/gcc-11.2.0`
+2.  `.contrib/download_prerequisites`
