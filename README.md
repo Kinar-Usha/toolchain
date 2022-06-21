@@ -28,5 +28,5 @@ solution
 
 3. after the preequisites are downloaded 
   `cd ~/toolchain`
-`make clean-toolchain`
-`make`
+  `make clean-toolchain`
+  `make`
