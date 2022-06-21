@@ -27,6 +27,6 @@ solution
 2.  `.contrib/download_prerequisites`
 
 3. after the preequisites are downloaded 
-  `cd ~/toolchain`
-  `make clean-toolchain`
-  `make`
+ 1. `cd ~/toolchain`
+ 2. `make clean-toolchain`
+ 3. `make`
