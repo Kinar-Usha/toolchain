@@ -25,3 +25,8 @@ files. They may be located in separate packages.`
 solution 
 1. `cd ~/toolchain/toolchain/gcc-11.2.0`
 2.  `.contrib/download_prerequisites`
+
+3. after the preequisites are downloaded 
+  `cd ~/toolchain`
+`make clean-toolchain`
+`make`
