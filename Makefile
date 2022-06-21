@@ -76,7 +76,7 @@ $(GCC_SRC).tar.xz:
 # Clean
 #
 clean-toolchain:
-	rm -rf $(GCC_BUILD) $(GCC_SRC) $(BINUTILS_BUILD) $(BINUTILS_SRC)
+	rm -rf $(GCC_BUILD) $(BINUTILS_BUILD) 
 
 clean-toolchain-all:
 	rm -rf toolchain/*
