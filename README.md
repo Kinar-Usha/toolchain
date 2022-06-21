@@ -26,7 +26,7 @@ solution
 1. `cd ~/toolchain/toolchain/gcc-11.2.0`
 2.  `.contrib/download_prerequisites`
 
-3. after the preequisites are downloaded 
+3. after the pre-requisites are downloaded 
  1. `cd ~/toolchain`
  2. `make clean-toolchain`
  3. `make`
